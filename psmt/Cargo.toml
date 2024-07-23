@@ -1,17 +1,9 @@
-workspace = { 
-    members = [ 
-        "lib/psmt-docker-manager",
-        "lib/psmt-firewall-manager",
-        "lib/psmt-system-manager",
-        "lib/psmt-ui"
-    ] 
-}
-
-[package]
-name = "app"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace]
+members = [
+    "psmt_docker_manager",
+    "psmt_firewall_manager",
+    "psmt_system_services",
+    "psmt_web",
+    "app", "psmt_jenkins_manager",
+]
+resolver = "2"
