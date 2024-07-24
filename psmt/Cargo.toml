@@ -4,6 +4,7 @@ members = [
     "psmt_firewall_manager",
     "psmt_system_services",
     "psmt_web",
-    "app", "psmt_jenkins_manager",
+    "psmt_jenkins_manager",
+    "psmt_app",
 ]
 resolver = "2"
